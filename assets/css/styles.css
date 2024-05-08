@@ -352,7 +352,7 @@ img {
   position: absolute;
   filter: var(--shadow-img);
   scale: 0;
-  transition: scale .4s 1s;
+  transition: scale .4s .1s;
 }
 .favorites__leaf-1 {
   top: -1rem;
@@ -379,8 +379,31 @@ img {
 }
 
 /*=============== CARE ===============*/
-
-
+.care {
+  background-color: var(--first-color-dark);
+}
+.care__container {
+  row-gap: 3rem;
+  padding-block: 1rem 2rem;
+}
+.care__list {
+  display: grid;
+  row-gap: 1.25rem;
+}
+.care__item {
+  display: flex;
+  column-gap: .75rem;
+  align-items: center;
+}
+.care__item i {
+  font-size: 1.5rem;
+  color: var(--second-color);
+}
+.care__img{
+  width: 320px;
+  filter: var(--shadow-img);
+  justify-self: center;
+}
 /*=============== BANNER ===============*/
 
 
